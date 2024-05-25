@@ -15,7 +15,7 @@ const validateFruit = (req, res, next) => {
     uses,
     description,
     cultivation_tips,
-  } = req.body;
+  } = req.body; 
 
   
   const tasteOptions = ["Sweet", "Sour"];
